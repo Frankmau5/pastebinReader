@@ -17,7 +17,7 @@ Things I want to do
 
 
 #### License
-GPLv3 - [read here](https://github.com/Frankmau5/pastebinReader/blob/main/LICENSE)
+GPLv3 - [read here]()
 
 #### Install
 Install for pinephone
@@ -41,7 +41,7 @@ There should be a desktop entry in your luncher. You might want to try to logout
 
 if there is not you can run in the terminal.
 
-`flatpak mlv.krnf.pastebinReader` 
+`flatpak run mlv.krnf.pastebinReader` 
 
 
 
