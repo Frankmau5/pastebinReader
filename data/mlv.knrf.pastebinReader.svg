@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="32"
+   viewBox="0 0 8.4666667 8.4666667"
+   version="1.1"
+   id="svg161"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="pastebin-reader.svg"
+   inkscape:export-filename="/home/knrf/Documents/code/python/phosh/pastebin-reader/pastebin-reader/src/data/f.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs155">
+    <rect
+       x="0.88031811"
+       y="0.71584982"
+       width="10.734013"
+       height="11.568189"
+       id="rect175" />
+    <rect
+       x="0.7538588"
+       y="0.58505034"
+       width="10.975235"
+       height="11.624812"
+       id="rect169" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="16"
+     inkscape:cx="17.436148"
+     inkscape:cy="19.359759"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1458"
+     inkscape:window-height="1199"
+     inkscape:window-x="429"
+     inkscape:window-y="161"
+     inkscape:window-maximized="0"
+     inkscape:pagecheckerboard="true" />
+  <metadata
+     id="metadata158">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;stroke-width:0.167683"
+       id="rect165"
+       width="7.9733653"
+       height="7.9652896"
+       x="0.27120468"
+       y="0.22073032"
+       ry="0.79510742" />
+    <text
+       xml:space="preserve"
+       id="text173"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect175);fill:#000000;fill-opacity:1;stroke:none;" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.1725px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.254313"
+       x="-0.10953261"
+       y="9.986393"
+       id="text181"
+       transform="scale(0.94386146,1.0594775)"><tspan
+         sodipodi:role="line"
+         id="tspan179"
+         x="-0.10953261"
+         y="9.986393"
+         style="fill:#f9f9f9;stroke-width:0.254313" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.4276px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.13569;"
+       x="2.1308494"
+       y="5.0399919"
+       id="text15"
+       transform="scale(0.74799155,1.3369135)"><tspan
+         sodipodi:role="line"
+         id="tspan13"
+         x="2.1308494"
+         y="5.0399919"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.4276px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.13569">PR</tspan></text>
+  </g>
+</svg>

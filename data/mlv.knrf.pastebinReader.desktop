@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Pastebin Reader
+Icon=mlv.knrf.pastebinReader
+Exec=pastebin_reader
+Terminal=false
+Type=Application
+Categories=
+StartupNotify=false

@@ -1,0 +1,60 @@
+{
+    "app-id": "mlv.knrf.pastebinReader",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "3.38",
+    "sdk": "org.gnome.Sdk",
+    "command": "pastebin_reader",
+    "finish-args": [
+      	"--socket=fallback-x11",
+		"--share=network",
+		"--socket=session-bus",
+		"--filesystem=home"
+    ],
+    "modules": [
+        {
+            "name": "pastebinReader",
+            "buildsystem": "meson",
+            "builddir": true,
+            "sources": [
+                {
+                    "type": "dir",
+                    "path": "."
+                }
+            ]
+        },
+        
+        {
+            "name": "pip-install",
+            "buildsystem": "simple",
+            "build-options": {
+              "build-args": [
+                "--share=network"
+              ]
+            },
+            "build-commands": [
+                "pip3 install --prefix=/app --no-cache-dir requests",
+				"pip3 install --prefix=/app --no-cache-dir beautifulsoup4 "
+            ]
+        },
+		{
+      "name": "libhandy",
+      "buildsystem": "meson",
+      "config-opts": [
+        "-Dglade_catalog=disabled",
+        "-Dtests=false",
+        "-Dexamples=false"
+      ],
+	  "build-options":[
+	  "--share=network",
+	  "--socket=fallback-x11"
+	  ],
+      "sources": [
+        {
+          "type": "git",
+          "url": "https://gitlab.gnome.org/GNOME/libhandy",
+          "tag": "1.0.3"
+        }
+      ]
+}
+    ]
+}

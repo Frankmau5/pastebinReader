@@ -1,0 +1,25 @@
+#!@PYTHON@
+# -*- coding: utf-8 -*-
+
+
+import os
+import signal
+import sys
+
+VERSION = '@VERSION@'
+pkgdatadir = '@pkgdatadir@'
+
+sys.path.insert(1, pkgdatadir)
+signal.signal(signal.SIGINT, signal.SIG_DFL)
+
+if __name__ == '__main__':
+
+    import gi
+    from gi.repository import Gio
+
+    res = Gio.Resource.load(os.path.join(pkgdatadir, 'app_resources.gresource'))
+    # Register the resource globally within the application.
+    res._register()
+
+    from pastebin_reader import main
+    sys.exit(main.main())
