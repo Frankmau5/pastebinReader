@@ -17,7 +17,7 @@ Things I want to do
 
 
 #### License
-GPLv3 - [read here]()
+GPLv3 - [read here](https://github.com/Frankmau5/pastebinReader/blob/main/LICENSE)
 
 #### Install
 Install for pinephone
