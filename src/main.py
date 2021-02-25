@@ -180,7 +180,7 @@ class Application(Gtk.Application):
     def on_about(self, model_button):
         #icon = GdkPixbuf.Pixbuf.new_from_file()
         about = Gtk.AboutDialog()
-        about.set_version("1.1.0")
+        about.set_version("1.1.1")
         #about.set_logo(icon)
         about.set_website("https://github.com/Frankmau5/pastebinReader")
         about.set_license("GPLv3 Read more here : https://github.com/Frankmau5/pastebinReader/blob/main/LICENSE")
