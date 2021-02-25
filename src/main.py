@@ -108,6 +108,8 @@ class Application(Gtk.Application):
         scrolledwindow.set_vexpand(True)
 
         source = GtkSource.View()
+        source.set_editable(False)
+        source.set_cursor_visible(False)
         source.set_show_line_numbers(True)
         self.textbuffer = source.get_buffer()
 
